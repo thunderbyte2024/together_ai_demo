@@ -215,10 +215,7 @@ function sendWithImage() {
   const payload = {
     model: selectedModel,
     messages: [{ role: "user", content }],
-    stream: false
-  };
-
-  const apiKey = "tgp_v1_Yum_eXp66_S4GKTq9ACBiS7qI7Q8uzXMCf6DPM3x3bQ";
+    
   const endpoint = "https://api.together.xyz/v1/chat/completions";
 
   try {
